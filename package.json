@@ -1,0 +1,22 @@
+{
+  "name": "ethanbrown.us",
+  "version": "0.0.1",
+  "description": "ERROR: No README.md file found!",
+  "main": "index.js",
+  "dependencies": {
+    "docpad": "~6.42.3",
+    "docpad-plugin-highlightjs": "~2.1.7",
+    "docpad-plugin-sunny": "0.0.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Iristyle/ethanbrown.us.git"
+  },
+  "author": "Ethan J. Brown",
+  "license": "MIT",
+  "gitHead": "51c351ecb36aa06e83df344033e6cf4e37f17447"
+}
