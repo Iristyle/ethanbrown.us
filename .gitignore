@@ -136,3 +136,6 @@ coverages/
 #Sublime Javascript files
 test/**/*.js
 app/**/*.js
+
+#DocPac
+out/**/*
