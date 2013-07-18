@@ -1,22 +1,24 @@
 {
   "name": "ethanbrown.us",
-  "version": "0.0.1",
-  "description": "ERROR: No README.md file found!",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "Custom DocPad project with MAXIMUS theme",
+  "engines": {
+    "node": "0.10",
+    "npm": "1.2"
+  },
   "dependencies": {
-    "docpad": "~6.42.3",
-    "docpad-plugin-highlightjs": "~2.1.7",
+    "docpad": "6.x",
+    "docpad-plugin-marked": "~2.1.1",
+    "docpad-plugin-eco": "~2.0.2",
     "docpad-plugin-sunny": "0.0.10"
   },
-  "devDependencies": {},
+  "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
-    "test": "grunt test"
+    "start": "node_modules/docpad/bin/docpad-server"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Iristyle/ethanbrown.us.git"
   },
   "author": "Ethan J. Brown",
-  "license": "MIT",
-  "gitHead": "51c351ecb36aa06e83df344033e6cf4e37f17447"
 }
